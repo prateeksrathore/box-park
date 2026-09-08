@@ -1,0 +1,18 @@
+# robots.txt — BOXPARK Jaipur
+# https://www.robotstxt.org/
+
+User-agent: *
+Allow: /
+Disallow: /assets/source/
+
+# Explicitly welcome the crawlers that matter for local search
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+Sitemap: https://REAL-DOMAIN.com/sitemap.xml
